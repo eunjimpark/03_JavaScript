@@ -20,8 +20,8 @@ function test(){
 //-----------------------------------------------------------
 
 let balance = 10000;  
-const amount = document.getElementById("amount");
-const password = document.getElementById("password");
+const input = document.getElementById("input");
+const result= document.getElementById("result");
 
 
  function doposit(){

@@ -1,4 +1,4 @@
- #calc{
+ .calc{
     border : 3px solid black;
     background-color: lightpink;
     color: black;
@@ -10,7 +10,7 @@
      
 }
 
-#bal{
+.bal{
     color: red;
     border:  3px solid red;
     font-weight: bold;
@@ -20,7 +20,7 @@
 
 }
 
-#mou{
+.mou{
     color: blue;
     border:  3px solid blue;
     font-weight: bold;
@@ -30,6 +30,10 @@
     height : 30px;
 }
 
-#button{
+.button{
+    color: green;
+    border: 3px solid green;
+
+
 
 }
