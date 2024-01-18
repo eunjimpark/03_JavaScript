@@ -61,6 +61,7 @@ function check5(){
   
       console.log(str);
     
+      
       // 3번째 줄 출력 후 멈춤
       if(row == 3) break;
     }
@@ -101,7 +102,7 @@ function startGame(){
             alert(`정답!!(${input})/count:${count}`);
             break;
         }
-        
+
         if(input>randomNumber){
             str=(`[down] / count : ${count}`);
         }

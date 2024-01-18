@@ -1,0 +1,27 @@
+
+.container{
+    border : 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px;
+    
+
+}
+.box{
+    width: 150px;
+    height: 150px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    transition-duration: 0.05s;
+    user-select: none;
+}
+
+.container *{
+    margin-bottom : 5px;
+}
+
+#btn{
+    border: 1px solid blue;
+    font-weight:bold ;
+    background-color: white;
+}
