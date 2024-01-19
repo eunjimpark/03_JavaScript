@@ -134,7 +134,7 @@ input3.addEventListener("keyup", function(e){
 })
 
 
-// #box3를 클릭하면 현재 ㅂ재경색을 alert로 출력
+// #box3를 클릭하면 현재 배경색을 alert로 출력
 
 box3.addEventListener("click", function(e){
 
