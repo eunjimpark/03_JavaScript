@@ -53,7 +53,9 @@ applyBtn.addEventListener("click", ()=>{
         box.style.justifyContent = row.value;
     }
 
-      //세로정렬 radio버튼이 체크되어 있을 경우
+      //세로정렬 radio버튼이 체크되어 있을 
+      
+      경우
       if(col !=null){
         //세로정렬에 작성된 값 #box의 세로 정렬로 대입
        box.style.alignItems = col.value;

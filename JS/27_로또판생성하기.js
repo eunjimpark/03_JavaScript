@@ -3,7 +3,7 @@ const createBtn = document.querySelector("#createBtn");
 const lottoBoard = document.querySelector("#lottoBoard");
 
 //#createBtn버튼 클릭시
-//#lottoBoard에 div.number용소 45개 생성해서 추가하기
+//#lottoBoard에 div.number요소 45개 생성해서 추가하기
 
 createBtn.addEventListener("click",()=>{
 

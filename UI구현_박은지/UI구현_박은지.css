@@ -1,0 +1,191 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* 누른번호 */
+  #phoneNumber{
+
+    width: 250px;
+    height: 40px;
+    margin: 5%;
+
+    /* border: 1px solid black; */
+
+    font-size: 25px;
+    justify-content: center;
+    align-content: center;
+    
+    display: flex;  
+    border-bottom: 2px solid #ccc;
+    
+    font-weight: bold;
+    
+  }
+
+  #numberBoard{
+    width: 250px;
+    margin: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+
+    /* border: 1px solid black; */
+    
+  }
+
+
+
+/* 번호표 */
+  .number{
+    width: 82px;
+    height: 80px;
+
+    border-radius: 50%;
+
+    font-size: 20px;
+    
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+    user-select: none;
+
+    font-weight: bold;
+
+    /* border: 1px solid black; */
+  }
+
+  .number:hover{
+    background-color: lightgray;
+    color: black;
+  }
+
+
+
+
+.btnContainer{
+  width: 250px;
+  height: 90px;
+
+  margin: 5%;
+
+  justify-content: center;
+  align-content: center;
+
+  flex-wrap: wrap;
+
+ 
+
+  /* border: 1px solid black; */
+}
+
+
+/* 추가버튼 */
+#addBtn{
+    width: 250px;
+    height: 30px;
+    border: 1px solid green;
+    border-radius: 10px;
+    background-color: white;
+    color: green;
+
+    cursor: pointer;
+    user-select: none;
+    font-weight: bold;
+
+    margin-top: 15%;
+
+    
+}
+
+
+#addBtn:hover{
+    background-color: green;
+    color: white;
+  }
+
+/* 초기화버튼 */
+#resetBtn{
+   
+    
+    width: 250px;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: white;
+    color: gray;
+
+
+    cursor: pointer;
+    user-select: none;
+    font-weight: bold;
+
+    margin-top: 5%;
+
+
+}
+
+#resetBtn:hover{
+    background-color: gray;
+    color: white;
+  }
+  
+
+
+
+  /* 기록 */
+.recordBox{
+  width: 200px;
+  height: 500px;
+
+  border-left: 2px solid #ccc;
+
+  margin: 30px;
+
+  justify-content: center;
+  align-content: center;
+ 
+  /* border: 1px solid black; */
+}
+
+.recordBox >div:first-child{
+  text-align: center;
+}
+
+#recordContainer{
+
+  width :200px;
+  height: 450px;
+  
+  margin-top: 10px;
+  margin-left: 20px;
+  list-style: none;
+
+  justify-content: center;
+  align-content: center;
+
+  text-align:left;
+
+  /* border: 1px solid black; */
+}
+
+.icon{
+ 
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  user-select: none;
+
+}
+
+#star:hover{
+  color: orangered
+}
+#star:active{
+  color:orangered
+  
+}
